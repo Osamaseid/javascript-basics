@@ -1,9 +1,13 @@
+// Example of manipulating arrays
+let fruits = ["apple", "banana", "orange"];
+fruits.push("habhab");
+fruits.pop();
+fruits.shift();
+fruits.unshift("temer");
+fruits.splice(1, 1);
 
-// example about function
-function calculator(num1, num2){
-    let add;
-    add = num1 + num2;
-    return add;
-}
-var adder = calclatotr();
-console.log(adder);
+// Example of array iteration
+
+fruits.forEach(function(fruit) {
+  console.log(fruit);
+});
