@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Event Handler Example</title>
+</head>
+<body>
+  <button id="myButton">Click Me</button>
+  <button id="osama">START</button>
+
+  <script>
+    const button = document.getElementById("myButton");
+    const button2 = document.getElementById("osama");
+    
+    function comeOn(){
+        alert('ASELAMUALYKUM WERAHMETULLAH');
+    }
+     button2.addEventListener("click", comeOn)
+     
+    function handleClick() {
+      console.log("Button clicked!");
+    }
+
+    button.addEventListener("click",handleClick);
+  </script>
+</body>
+</html>
