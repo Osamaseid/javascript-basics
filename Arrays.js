@@ -1,3 +1,5 @@
+
+
 // Example of manipulating arrays
 let fruits = ["apple", "banana", "orange"];
 fruits.push("habhab");
